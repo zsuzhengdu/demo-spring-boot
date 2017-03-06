@@ -1,7 +1,7 @@
 /* Requires the Docker Pipeline plugin */
 
 pipeline {
-    agent { 'remote' }
+    agent { any }
     stages {
         stage('build') {
             steps {
