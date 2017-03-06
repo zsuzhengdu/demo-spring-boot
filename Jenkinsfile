@@ -1,4 +1,3 @@
-Jenkinsfile (Scripted Pipeline)
 /* Requires the Docker Pipeline plugin */
 node('remote') {
     checkout scm
